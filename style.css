@@ -1,0 +1,99 @@
+body {
+    min-height: 100vh;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+   
+}
+.top {
+    background-color: #1f2937;
+    color:#F9FAF8;
+    display: flex;
+    
+    }
+
+.header {
+    display:flex;
+    font-size: 24px;
+        }
+ul, a {
+    display:flex;
+    list-style-type: none;
+    font-size:18px;
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+h1 {
+font-size: 42px;
+font-weight: 900;
+}
+
+
+.title p {
+    font-size:18px;
+    color:#E5E7EB;
+}
+button {
+    background-color: #3882f6;
+    border-radius: 15%;
+    border:0em;
+    border-color:#3882f6;
+    color:#F9FAF8;
+    padding:5px 18px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.info {
+    display:flex;
+}
+
+.infoimg {
+    border: 2px solid #3882f6;
+    border-radius: 15%;
+    height:200px;
+    width: 200px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+.quote {
+    display:flex;
+    background-color:#E5E7EB;
+    color:#1f2937;
+    font-style:italic;
+    font-size: 24px;
+}
+
+
+.cta-box {
+    display:flex;
+    background-color: #3882f6;
+    color:#E5E7EB;
+    font-size: 16px;
+}
+
+.cta-content {
+    display: flex;
+
+}
+
+.cta-content h3 {
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.container {
+    flex:1;
+    
+}
