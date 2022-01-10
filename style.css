@@ -42,7 +42,7 @@ margin:0;
 .title {
     background-color: #1f2937;
     color:#E5E7EB;
-    padding: 75px 50px 150px 50px;
+    padding: 75px 50px 100px 50px;
     }
 
 .title-container {
@@ -87,7 +87,7 @@ button {
 
 .info-container {
     display:flex;
-    padding:50px;
+    padding:75px 50px 100px 50px;
     text-align: center;
     align-items: center;
     justify-content:center;
@@ -95,7 +95,7 @@ button {
 }
 
 .info {
-    max-width: 200px;
+    max-width: 225px;
 }
 
 .infoimg {
@@ -118,10 +118,12 @@ button {
     color:#1f2937;
     font-style:italic;
     font-size: 24px;
-    padding: 50px;
+    padding: 100px 50px;
     display:flex;
     justify-content: center;
+    align-content:center;
 }
+
 
 .quote-text {
 display: flex;
@@ -141,7 +143,7 @@ width:50%
 
 .cta-box {
     display:flex;
-    padding:75px;
+    padding:100px 75px;
     color:#E5E7EB;
     font-size: 16px;
     justify-content: center;
@@ -186,6 +188,7 @@ width:50%
     background-color: #1f2937;
     color: #E5E7EB;
     display:flex;
+    padding:30px;
     align-items: center;
     justify-content: center;
 }
