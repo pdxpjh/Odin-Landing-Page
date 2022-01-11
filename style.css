@@ -1,4 +1,4 @@
-body {
+/* body {
     min-height: 100vh;
     font-family: "Lucida Console", "Courier New", monospace;
     display:flex;
@@ -59,7 +59,7 @@ margin:0;
 .title p {
     font-size:18px;
     color:#E5E7EB;
-}
+
 
 .title img {
     width:425px;
@@ -196,4 +196,4 @@ width:50%
 .container {
     flex:1;
     
-}
+} 
